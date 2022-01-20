@@ -10,9 +10,9 @@ PLUGIN_ENTRY_POINT = ('deepspeech_stt_plug = '
 
 setup(
     name='mycroft-stt-plugin-deepspeech',
-    version='0.2',
-    description='A STT plugin for mycroft',
-    url='http://github.com/MycroftAI/mycroft-stt-plugin-deepspeech',
+    version='0.3',
+    description='A STT plugin for mycroft using mozilla deepspeech',
+    url='https://github.com/forslund/mycroft-stt-plugin-deepspeech',
     author='Joshua Watts',
     author_email='',
     license='Apache-2.0',
@@ -29,6 +29,7 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
     keywords='mycroft plugin stt',
     entry_points={'mycroft.plugin.stt': PLUGIN_ENTRY_POINT}
