@@ -4,8 +4,9 @@ Enables Mozilla DeepSpeech by directly using a local installation via python bin
 
 ## Installation
 
+* Call `python -m pip install 'stt' -f https://github.com/coqui-ai/STT/releases/tag/v1.1.0` to install Coqui STT
 * See https://github.com/mozilla/DeepSpeech/releases/tag/v0.9.3 **Binding** to install DeepSpeech. 
-* use `mycroft-pip install git+https://github.com/dalgwen/mycroft-tts-plugin-pico2wave.git` to install this plugin.
+* Use `mycroft-pip install git+https://github.com/dalgwen/mycroft-tts-plugin-pico2wave.git` to install this plugin.
 
 ## Config
 
